@@ -1,0 +1,67 @@
+.navbar{
+    margin-bottom: 0px;
+}
+
+#bannerImage{
+	margin-bottom: 20px;
+    padding-top:75px;
+    padding-bottom:170px;
+    color:#286090;
+    background:url(../img/banner-image.jpg) no-repeat center center;
+    background-size:cover;
+	text-align:center;
+}
+
+#bannerContent{
+    margin-top:20%;
+    padding-top:0%;
+    padding-bottom:50%;
+	position:relative;
+	max-width:7000px;
+}
+
+
+.thumbnail {   
+min-height: 350px; 
+}
+
+
+footer{
+    background-color:#101010;
+    color:#9d9d9d;
+    font-size:14px;
+    font-weight:bold;
+    padding:10px;    
+    bottom:0;
+}
+
+html { 
+    min-height:100%;
+    position:relative;    
+} 
+
+@media (min-width:320px){
+    #autoResize{
+        font-size:12px;
+    }
+}
+@media (min-width:481px){
+    #autoResize{
+        font-size:16px;
+    }
+}
+@media (min-width:641px){
+    #autoResize{
+        font-size:18px;
+    }
+}
+@media (min-width:961px){
+    #autoResize{
+        font-size:20px;
+    }
+}
+@media (min-width:1000px){
+    #autoResize{
+        font-size:26px;
+    }
+}
